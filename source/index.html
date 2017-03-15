@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Carman Family Resource Centre</title>
+        
+        <link rel="stylesheet" href="css/reset.css" />
+        <link rel="stylesheet" href="css/site.css" />
+    </head>
+    <body>
+        <header>
+            <img src="assets/images/logo.png" alt="Carman Family Resource Centre" />
+            <h1>Carman Family Resource Centre</h1>
+            <h2>Programs - Parenting Resources - A Place for Families</h2>
+            <nav>
+                <div>
+                    <a ui-sref="home" ui-sref-active="current">Home</a>
+                    <a ui-sref="newsletter" ui-sref-active="current">Newsletter</a>
+                    <a ui-sref="programs" ui-sref-active="current">Programs</a>
+                    <a ui-sref="about" ui-sref-active="current">About</a>
+                    <a ui-sref="contact" ui-sref-active="current">Contact</a>
+                </div>
+            </nav>
+         </header>
+        <div class="page">
+            <div ui-view></div>
+        </div>
+        <footer>
+            <div>
+                <span>40-2nd Street NE</span>
+                <span>P.O. Box 124</span>
+                <span>Carman, MB R0G 0J0</span>
+                <span>Ph: 204.745.5571</span>
+                <span>Fax: 204.745.5572</span>
+                <span>email: <a href="mailto:carrc@mts.net">carrc@mts.net</a></span>
+            </div>
+        </footer>
+
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-ui-router.min.js"></script>
+        <script src="js/app.js"></script>
+    </body>
+</html>

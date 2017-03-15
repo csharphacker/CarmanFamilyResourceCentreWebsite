@@ -1,0 +1,23 @@
+{
+  "name": "carman-family-resource-centre-website",
+  "version": "1.0.0",
+  "description": "Website for the Carman Family Resource Centre",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csharphacker/CarmanFamilyResourceCentreWebsite.git"
+  },
+  "author": "Evan Bosscher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csharphacker/CarmanFamilyResourceCentreWebsite/issues"
+  },
+  "homepage": "https://github.com/csharphacker/CarmanFamilyResourceCentreWebsite#readme",
+  "dependencies": {
+    "angular": "^1.6.3",
+    "angular-ui-router": "^0.4.2"
+  }
+}
