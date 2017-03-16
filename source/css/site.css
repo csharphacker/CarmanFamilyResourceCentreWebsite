@@ -46,6 +46,10 @@ header > h1 {
     margin-top: 16px;
 }
 
+.no-margin {
+    margin: 0 !important;
+}
+
 header > nav {
     background-color: #310D38;
     align-self: stretch;
@@ -140,22 +144,21 @@ footer > div {
 .page iframe {
     width: 100%;
     height: 630px;
+    margin-top: 8px;
 }
 
-.page .centered {
+.page .container {
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    flex-direction: row;
 }
 
-.page .centered > header {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.page .split {
+    flex: 1;
 }
 
-.no-margin {
-    margin: 0;
+.page a {
+    color: #000;
+    text-decoration: none;
 }
 
 @media (min-width: 600px) {
